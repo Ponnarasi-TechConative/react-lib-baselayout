@@ -7,7 +7,7 @@ function App() {
       language: "English",
       config: {
         id: "1234",
-        name: "From react",
+        name: "Render from react",
         value: "Save",
       },
     });

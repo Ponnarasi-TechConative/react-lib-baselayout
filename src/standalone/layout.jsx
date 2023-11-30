@@ -18,7 +18,7 @@ export default class StandaloneLayout extends React.Component {
     const BaseLayout = getComponent("BaseLayout", true)
 
     return (
-      <div className='rest-import-ui'>
+      <div className='sample-import-ui'>
         <BaseLayout />
       </div>
     )

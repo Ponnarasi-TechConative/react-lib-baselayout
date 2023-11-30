@@ -12,7 +12,7 @@ export default function App() {
   }
 
   return (
-      <Stack className='rest-import-ui'>
+      <Stack className='sample-import-ui'>
         <SampleImportService sampleImportConfig={config} language='en' />
       </Stack>
   )

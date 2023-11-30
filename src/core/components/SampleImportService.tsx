@@ -5,7 +5,7 @@ import React from 'react'
 export default function SampleImportService({ language, sampleImportConfig }: { language: string, sampleImportConfig: any }) {
     return (
         <>
-             <div className="rest-import">
+             <div className="sample-import">
         <div className="information-container">
           <div>
             <p>Language : {language}</p>

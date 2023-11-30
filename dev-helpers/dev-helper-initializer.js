@@ -1,11 +1,11 @@
 /* eslint-disable no-undef */
 window.onload = function () {
-  window["SampleImportBundle"] = window["rest-import-ui-bundle"];
+  window["SampleImportBundle"] = window["sample-import-ui-bundle"];
   window["SampleImportStandalonePreset"] =
-    window["rest-import-ui-standalone-preset"];
+    window["sample-import-ui-standalone-preset"];
   // Build a system
   const ui = SampleImportBundle({
-    dom_id: "#rest-import-ui",
+    dom_id: "#sample-import-ui",
     language: "English",
     config:{
       id:"1234",

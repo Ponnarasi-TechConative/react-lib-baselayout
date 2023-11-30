@@ -33,7 +33,7 @@ export default class BaseLayout extends React.Component {
     const config = specSelectors.config();
     return (
       <Provider store={appStore}>
-        <div className="rest-import-ui">
+        <div className="sample-import-ui">
           <div className="information-container">
             <SampleImportService language={language} sampleImportConfig={config} />
           </div>

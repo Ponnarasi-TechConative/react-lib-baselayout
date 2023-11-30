@@ -23,13 +23,13 @@ const devConfig = configBuilder(
   {
     mode: "development",
     entry: {
-      "rest-import-ui-bundle": [
+      "sample-import-ui-bundle": [
         "./src/core/index.js",
       ],
-      "rest-import-ui-standalone-preset": [
+      "sample-import-ui-standalone-preset": [
         "./src/standalone/index.js",
       ],
-      "rest-import-ui": "./src/style/main.scss",
+      "sample-import-ui": "./src/style/main.scss",
       vendors: ["react-refresh/runtime"],
     },
 
@@ -99,7 +99,7 @@ const devConfig = configBuilder(
         template: path.join(projectBasePath, "dev-helpers", "index.html"),
       }),
       new HtmlWebpackSkipAssetsPlugin({
-        skipAssets: [/rest-import-ui\.js/],
+        skipAssets: [/sample-import-ui\.js/],
       }),
     ].filter(Boolean),
 

@@ -10,11 +10,11 @@ declare const SampleImport: any;
 export class AppComponent implements OnInit {
   ngOnInit(): void {
     const reactUI = SampleImport({
-      dom_id: '#rest-import-ui',
+      dom_id: '#sample-import-ui',
       language: 'en',
       config: {
         id: '1234',
-        name: 'From library',
+        name: 'Render from angular',
         value: 'Save',
       },
     });
