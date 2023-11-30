@@ -8,9 +8,9 @@ export default function WebServiceModal({ language, restImportConfig }: { langua
              <div className="rest-import">
         <div className="information-container">
           <div>
-            {restImportConfig.url}
+            {restImportConfig.id}
             <p>{restImportConfig.value}</p>
-            <p>{restImportConfig.objval.name}</p>
+            <p>{restImportConfig.name}</p>
           </div>
           <Stack spacing={2} direction="row">
             <Button variant="text">Text</Button>
