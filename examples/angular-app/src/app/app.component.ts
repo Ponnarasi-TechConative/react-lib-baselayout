@@ -1,7 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 declare const SampleImport: any;
-declare const configImport: any;
 
 @Component({
   selector: 'app-root',
