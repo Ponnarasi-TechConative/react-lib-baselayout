@@ -1,20 +1,21 @@
 import { Button, Stack } from '@mui/material';
-import React, { ReactNode, useEffect, useState } from 'react'
+import React from 'react'
 
 
-export default function WebServiceModal({ language, restImportConfig }: { language: string, restImportConfig: any }) {
+export default function SampleImportService({ language, sampleImportConfig }: { language: string, sampleImportConfig: any }) {
     return (
         <>
              <div className="rest-import">
         <div className="information-container">
           <div>
-            {restImportConfig.id}
-            <p>{restImportConfig.value}</p>
-            <p>{restImportConfig.name}</p>
+            <p>Language : {language}</p>
+            {sampleImportConfig.id}
+            <p>{sampleImportConfig.value}</p>
+            <p>{sampleImportConfig.name}</p>
           </div>
           <Stack spacing={2} direction="row">
             <Button variant="text">Text</Button>
-            <Button variant="contained">{restImportConfig.value}</Button>
+            <Button variant="contained">{sampleImportConfig.value}</Button>
             <Button variant="outlined">Outlined</Button>
           </Stack>
         </div>

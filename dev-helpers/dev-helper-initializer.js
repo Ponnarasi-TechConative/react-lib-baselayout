@@ -6,7 +6,7 @@ window.onload = function () {
   // Build a system
   const ui = RestImportBundle({
     dom_id: "#rest-import-ui",
-    language: "en",
+    language: "English",
     config:{
       id:"1234",
       name:'From library',

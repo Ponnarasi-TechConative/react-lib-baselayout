@@ -1,6 +1,6 @@
 import { Stack } from '@mui/material'
-import WebServiceModal from './core/components/WebServiceModal'
-import { Provider } from 'react-redux'
+import SampleImportService from './core/components/SampleImportService'
+
 
 export default function App() {
   const config: any = {
@@ -13,7 +13,7 @@ export default function App() {
 
   return (
       <Stack className='rest-import-ui'>
-        <WebServiceModal restImportConfig={config} language='en' />
+        <SampleImportService sampleImportConfig={config} language='en' />
       </Stack>
   )
 }
