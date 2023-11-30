@@ -1,3 +1,3 @@
-import RestImport from "./core"
+import SampleImport from "./core"
 
-export default RestImport
+export default SampleImport

@@ -31,7 +31,7 @@ const result = configBuilder(
     output: {
       globalObject: "this",
       library: {
-        name: "RestImport",
+        name: "SampleImport",
         export: "default",
       },
     },

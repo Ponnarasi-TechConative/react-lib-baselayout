@@ -9,10 +9,10 @@ import win from "./window"
 // eslint-disable-next-line no-undef
 const { GIT_DIRTY, GIT_COMMIT, PACKAGE_VERSION, BUILD_TIME } = buildInfo
 
-export default function RestImport(opts) {
+export default function SampleImport(opts) {
 
   win.versions = win.versions || {}
-  win.versions.RestImport = {
+  win.versions.SampleImport = {
     version: PACKAGE_VERSION,
     gitRevision: GIT_COMMIT,
     gitDirty: GIT_DIRTY,
@@ -182,9 +182,9 @@ export default function RestImport(opts) {
 }
 
 // Add presets
-RestImport.presets = {
+SampleImport.presets = {
   apis: ApisPreset,
 }
 
 // All Plugins
-RestImport.plugins = AllPlugins
+SampleImport.plugins = AllPlugins

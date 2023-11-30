@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 
-declare const RestImport: any;
+declare const SampleImport: any;
 declare const configImport: any;
 
 @Component({
@@ -10,7 +10,7 @@ declare const configImport: any;
 })
 export class AppComponent implements OnInit {
   ngOnInit(): void {
-    const reactUI = RestImport({
+    const reactUI = SampleImport({
       dom_id: '#rest-import-ui',
       language: 'en',
       config: {
