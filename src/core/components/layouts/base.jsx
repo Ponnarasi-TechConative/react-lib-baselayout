@@ -3,7 +3,6 @@
  */
 import React from "react";
 import PropTypes from "prop-types";
-import "../../../i18n";
 import { Provider } from "react-redux";
 import appStore from "../../../jsx/core/components/appStore/Store";
 export default class BaseLayout extends React.Component {
