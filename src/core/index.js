@@ -9,10 +9,10 @@ import win from "./window"
 // eslint-disable-next-line no-undef
 const { GIT_DIRTY, GIT_COMMIT, PACKAGE_VERSION, BUILD_TIME } = buildInfo
 
-export default function RestImport(opts) {
+export default function SampleImport(opts) {
 
   win.versions = win.versions || {}
-  win.versions.RestImport = {
+  win.versions.SampleImport = {
     version: PACKAGE_VERSION,
     gitRevision: GIT_COMMIT,
     gitDirty: GIT_DIRTY,
@@ -104,7 +104,7 @@ export default function RestImport(opts) {
   if (constructorConfig.initialState) {
     // if the user sets a key as `undefined`, that signals to us that we
     // should delete the key entirely.
-    // known usage: rest-import-Editor validate plugin tests
+    // known usage: sample-import-Editor validate plugin tests
     for (var key in constructorConfig.initialState) {
       if (
         Object.prototype.hasOwnProperty.call(constructorConfig.initialState, key)
@@ -182,9 +182,9 @@ export default function RestImport(opts) {
 }
 
 // Add presets
-RestImport.presets = {
+SampleImport.presets = {
   apis: ApisPreset,
 }
 
 // All Plugins
-RestImport.plugins = AllPlugins
+SampleImport.plugins = AllPlugins

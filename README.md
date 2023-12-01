@@ -19,5 +19,5 @@ Run `npm start` for a dev server. Navigate to <http://localhost:3000/>. The appl
 
 Run `npm run build` to build the project. The build artifacts will be stored in the dist/ directory.
 
-1. `rest-import-bundle.js`
-2. `rest-import-bundle.css`
+1. `sample-import-bundle.js`
+2. `sample-import-bundle.css`

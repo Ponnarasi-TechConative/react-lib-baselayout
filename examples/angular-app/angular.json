@@ -26,11 +26,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/plugins/rest-import-bundle.css"
+              "src/assets/plugins/sample-import-bundle.css"
             ],
             "scripts": [
-              "src/assets/plugins/rest-import-bundle.js",
-              "src/assets/plugins/config-import-bundle.js"
+              "src/assets/plugins/sample-import-bundle.js"
             ]
           },
           "configurations": {
@@ -92,11 +91,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/plugins/rest-import-bundle.css"
+              "src/assets/plugins/sample-import-bundle.css"
             ],
             "scripts": [
-              "src/assets/plugins/rest-import-bundle.js",
-              "src/assets/plugins/config-import-bundle.js"
+              "src/assets/plugins/sample-import-bundle.js"
 
             ]
           }

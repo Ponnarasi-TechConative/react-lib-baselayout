@@ -101,7 +101,7 @@ export default function buildConfig(
         extensions: [".web.js", ".js", ".jsx", ".json", ".less", ".tsx",".ts"],
         alias: {
           // these aliases make sure that we don't bundle same libraries twice
-          // when the versions of these libraries diverge between rest-import-js and rest-import-ui
+          // when the versions of these libraries diverge between sample-import-js and sample-import-ui
           "@babel/runtime-corejs3": path.resolve(
             __dirname,
             "..",
